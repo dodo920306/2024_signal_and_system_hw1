@@ -1,5 +1,5 @@
 t = -2 : 0.01 : 4;
-r = t .* (t >= 0); % ramp function
+r = t .* (t >= 0); % ramp function t * u(t)
 x = 2 * r;
 
 plot(t, x);
